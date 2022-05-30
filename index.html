@@ -20,10 +20,24 @@
             <div class="main">
                 <div class="topbar">
                     <a href="#" class="logo">Portfolio</a>
-                    <div class="toggle"></div>
-                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <div class="toggle">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <script>
+            let toggle = document.querySelector('.toggle');
+            let toolbar = document.querySelector('.topbar');
+            let navigation = document.querySelector('.naviagtion');
+            let main = document.querySelector('.main');
+            toggle.onclick = function(){
+                toggle.classList.toggle('active');
+                topbar.classList.toggle('active');
+                naviagtion.classList.toggle('active');
+                main.classList.toggle('active');
+            }
+        </script>
     </body>
 </html>
