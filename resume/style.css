@@ -3,14 +3,25 @@
     font-family: 'Source Code Pro', monospace;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body {
     background: rgb(86, 84, 179);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: 100vh;
+}
+.mainWebsite {
+    margin: 20px 0;
+    color: #fff;
+    text-decoration: none;
+}
+.top{
+    position: absolute;
+    top: 0px;
+    padding-bottom: 30px;
+    position: relative;
 }
 .container{
     position: relative;
